@@ -37,9 +37,9 @@ Para usar la aplicación, simplemente abre el archivo `index.html` en tu navegad
 ![Pantalla inicial de la aplicación, mostrando el campo para agregar nombres.](assets/pantalla-inicial.png)
 
 **2. Agregando Amigos:**
-![Captura de pantalla con varios nombres añadidos a la lista.](assets/screenshot-2.png)
+![Captura de pantalla con varios nombres añadidos a la lista.](assets/nombres-sorteo.png)
 
 **3. Resultado del Sorteo:**
-![Imagen mostrando el resultado del sorteo con un nombre elegido al azar.](assets/screenshot-3.png)
+![Imagen mostrando el resultado del sorteo con un nombre elegido al azar.](assets/resultado-sorteo.png)
 
 ---
