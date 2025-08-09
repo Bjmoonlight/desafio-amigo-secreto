@@ -54,4 +54,6 @@ function sortearAmigo() {
 
     // 4. Mostrar el resultado.
     resultadoP.innerHTML = `<li>¡El amigo secreto es: ${nombreSorteado}! 🎉</li>`;
+    // Deshabilitar el botón para que no se pueda sortear de nuevo
+    botonSortear.disabled = true;
 }
