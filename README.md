@@ -34,7 +34,7 @@ Para usar la aplicación, simplemente abre el archivo `index.html` en tu navegad
 *(Aquí puedes insertar imágenes o enlaces a videos que demuestren el funcionamiento. Por ejemplo:)*
 
 **1. Pantalla Inicial:**
-![Pantalla inicial de la aplicación, mostrando el campo para agregar nombres.](assets/screenshot-1.png)
+![Pantalla inicial de la aplicación, mostrando el campo para agregar nombres.](assets/pantalla-inicial.png)
 
 **2. Agregando Amigos:**
 ![Captura de pantalla con varios nombres añadidos a la lista.](assets/screenshot-2.png)
