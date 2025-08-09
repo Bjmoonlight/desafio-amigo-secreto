@@ -38,22 +38,22 @@ function actualizarListaAmigos() {
 
 // Función para sortear los amigos.
 function sortearAmigo() {
-    const resultadoP = document.getElementById('resultado'); // Usamos el ID del <ul>
+    const resultadoUl = document.getElementById('resultado');
+    const botonSortear = document.getElementById('btnSortear'); // <-- Cambiado aquí para usar el ID
 
-    // 1. Validar que haya amigos disponibles.
-    if (nombres.length === 0) {
-        resultadoP.innerHTML = '<li>Debes añadir al menos un amigo para sortear.</li>';
+    // Validar que haya amigos disponibles
+    if (nombres.length < 2) {
+        resultadoUl.innerHTML = '<li>Debes añadir al menos dos amigos para sortear.</li>';
         return;
     }
 
-    // 2. Generar un índice aleatorio.
+    // Generar un índice aleatorio
     const indiceAleatorio = Math.floor(Math.random() * nombres.length);
-
-    // 3. Obtener el nombre sorteado.
     const nombreSorteado = nombres[indiceAleatorio];
 
-    // 4. Mostrar el resultado.
-    resultadoP.innerHTML = `<li>¡El amigo secreto es: ${nombreSorteado}! 🎉</li>`;
+    // Mostrar el resultado
+    resultadoUl.innerHTML = `<li>¡El amigo secreto es: ${nombreSorteado}! 🎉</li>`;
+
     // Deshabilitar el botón para que no se pueda sortear de nuevo
     botonSortear.disabled = true;
 }
